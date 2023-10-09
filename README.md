@@ -1,5 +1,5 @@
 # Responsive-template React + TypeScript + Vite
-<a href="https://marnand.github.io/responsive-template-react/">Demo</a>
+[Demo](https://marnand.github.io/responsive-template-react/)
 
 ## 📋 Descrição do projeto
 Este template serve de base para iniciar uma landing page responsiva. 
