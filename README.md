@@ -1,6 +1,5 @@
 # Responsive-template React + TypeScript + Vite
-
-O projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) versão 16.0.2.
+[Demo](https://marnand.github.io/responsive-template-react/)
 
 ## 📋 Descrição do projeto
 Este template serve de base para iniciar uma landing page responsiva. 
@@ -11,3 +10,19 @@ a depender da customização que se quer utilizar nem será necessário criar um
 - Vite JS
 - React JS
 - Tailwind CSS
+
+## 🚀 Publicando projeto via github pages
+
+- adicione o pacote gh-pages executando o segunte comando no terminal: <br>
+  `npm install gh-pages --save-dev`
+- no arquivo `package.json` após a linha `"build": "vite build"` adicionar: <br>
+  `"predeploy": "npm run build",` <br>
+  `"deploy": "gh-pages -d dist",`
+- no arquivo `vite.config.js` após a linha `plugins: [react()],` adicionar: <br>
+  `base: "/NOME_SEU_REPOSITORIO",`
+- depois basta executar no terminal o comando:
+  `npm run deploy`
+
+Após o comando `npm run deploy` uma nova branch será criada no seu repositório, ela deve ser escolhida como a branch para de publicação do github pages
+
+
